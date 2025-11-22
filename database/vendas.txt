@@ -1,0 +1,12 @@
+pagamento:Pagamento.PIX
+itens:Nome:9
+total:864.00
+
+pagamento:Pagamento.PIX
+itens:Nome:8, Nome2:2
+total:960.00
+
+pagamento:Pagamento.PIX
+itens:Nome:1, Nome2:2
+total:288.00
+

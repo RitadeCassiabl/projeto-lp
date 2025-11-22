@@ -1,0 +1,17 @@
+nome:nome
+fabricante:fabricante
+dosagem:dosagem
+preco:96.0
+quantidade: 84
+tipo:tipo
+prescricao:Não
+tarjaPreta:Não
+
+nome:nome2
+fabricante:fabricante
+dosagem:dosagem
+preco:96.0
+quantidade: 83
+tipo:tipo
+prescricao:sim
+tarjaPreta:Não

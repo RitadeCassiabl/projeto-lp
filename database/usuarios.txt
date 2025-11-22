@@ -1,0 +1,7 @@
+nome:usuario1
+senha:1234
+papel:farmaceutico
+
+nome:usuario2
+senha:4321
+papel:caixa
