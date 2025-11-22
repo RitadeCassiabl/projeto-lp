@@ -1,4 +1,4 @@
-from classes.menus.utils.limpar_terminal import limpar_terminal
+from menus.utils.limpar_terminal import limpar_terminal
 from classes.venda import Venda
 from classes.venda import Pagamento
 

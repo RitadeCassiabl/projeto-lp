@@ -1,6 +1,6 @@
-import classes.menus.menu_farmaceutico as menu_farmaceutico
-import classes.menus.menu_caixa as menu_caixa
-from classes.menus.utils.limpar_terminal import limpar_terminal
+import menus.menu_farmaceutico as menu_farmaceutico
+import menus.menu_caixa as menu_caixa
+from menus.utils.limpar_terminal import limpar_terminal
 class Menu:
     def exibir_menu(self):
         print("=== Entrar ===")

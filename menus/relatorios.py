@@ -1,4 +1,4 @@
-from classes.menus.utils.limpar_terminal import limpar_terminal
+from menus.utils.limpar_terminal import limpar_terminal
 class MenuRelatorios: 
     def exibir_menu(self):
         print("\n=== Menu Relatórios ===")

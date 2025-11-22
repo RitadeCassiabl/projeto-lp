@@ -1,6 +1,6 @@
 from classes.medicamento import Medicamento
-from classes.menus.utils.limpar_terminal import limpar_terminal
-from classes.menus.relatorios import MenuRelatorios
+from menus.utils.limpar_terminal import limpar_terminal
+from menus.relatorios import MenuRelatorios
 class MenuFarmaceutico:
     def exibir_menu(self):
         while True:
