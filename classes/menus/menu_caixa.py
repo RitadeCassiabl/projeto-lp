@@ -108,11 +108,11 @@ class MenuCaixa:
                 case "1":
                     self.processar_nova_venda()
                 case "0":
-                    print("Saindo do menu do Caixa.")
+                    print("Saindo")
                     break
                 case _:
                     print("Opção inválida.")
-                    input("Pressione Enter para continuar...")
+                    input("Pressione Enter para continuar")
     
     def processar_nova_venda(self):
         limpar_terminal()

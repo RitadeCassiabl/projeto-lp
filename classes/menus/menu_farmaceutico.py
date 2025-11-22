@@ -74,9 +74,8 @@ class MenuFarmaceutico:
                                 medicamento_encontrado = True
                                 print(f"\nMedicamento '{nome_deletar}' encontrado. Excluindo...")
                 
-                                i += 9 
+                                i += 9
                                 continue
-            
                             linhas_para_manter.append(linhas[i])
                             i += 1
 
@@ -210,9 +209,10 @@ class MenuFarmaceutico:
                     except FileNotFoundError:
                         print("Erro: O arquivo 'database/medicamentos.txt' não foi encontrado.")
                 case "0":
-                    print("Saindo do menu do Farmacêutico.")
+                    print("Saindo")
                     break
                 case _:
                     print("Opção inválida. Tente novamente.")
+                    input("Pressione Enter para continuar")
                     
                     
