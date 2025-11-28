@@ -7,7 +7,7 @@ class Papel(Enum):
 class Usuario:
     def __init__(self, nome: str, senha: list, papel: Papel):
         self.__nome = nome
-        self.__senha = [0]*4
+        self.__senha = senha
         self.__papel = papel
 
     def set_nome(self, nome):
