@@ -10,3 +10,11 @@ pagamento:Pagamento.PIX
 itens:Nome:1, Nome2:2
 total:288.00
 
+pagamento:Pagamento.DINHEIRO
+itens:Nome:3
+total:288.00
+
+pagamento:Pagamento.PIX
+itens:Dipirona:2, Loratadina:2
+total:44.00
+

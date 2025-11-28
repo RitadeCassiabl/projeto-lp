@@ -177,7 +177,7 @@ class MenuRelatorios:
                 "\nNenhum medicamento que precisa de prescrição médica foi encontrado no estoque."
             )
 
-        input("\nPressione Enter para voltar ao menu")
+        input("\nPressione Enter para voltar ao menu do farmacêutico")
 
     def gerar_relatorio_sem_prescricao(self):
         limpar_terminal()
@@ -256,4 +256,4 @@ class MenuRelatorios:
                 "\nNenhum medicamento que não precisa de prescrição médica foi encontrado no estoque."
             )
 
-        input("\nPressione Enter para voltar ao menu")
+        input("\nPressione Enter para voltar ao menu do farmacêutico")

@@ -2,7 +2,7 @@ nome:nome
 fabricante:fabricante
 dosagem:dosagem
 preco:96.0
-quantidade: 84
+quantidade: 81
 tipo:tipo
 prescricao:Não
 tarjaPreta:Não
@@ -10,8 +10,36 @@ tarjaPreta:Não
 nome:nome2
 fabricante:fabricante
 dosagem:dosagem
-preco:96.0
-quantidade: 83
+preco:41.0
+quantidade:410
 tipo:tipo
 prescricao:sim
 tarjaPreta:Não
+
+nome:dipirona
+fabricante:novalgina
+dosagem:1 comprimido
+preco:12.0
+quantidade: 83
+tipo:referência
+prescricao:Não
+tarjaPreta:Não
+
+nome:loratadina
+fabricante:cimded
+dosagem:1 comprimido
+preco:10.0
+quantidade:23
+tipo:referência
+prescricao:Não
+tarjaPreta:Não
+
+nome:zolpidem
+fabricante:biolab
+dosagem:1 comprimido
+preco:23.0
+quantidade:136
+tipo:referência
+prescricao:Sim
+tarjaPreta:Sim
+
