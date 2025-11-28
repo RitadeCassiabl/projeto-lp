@@ -11,7 +11,7 @@ class Menu:
         login_sucesso = False 
 
         try:
-            with open("database/usuarios.txt", "r") as arquivo:
+            with open("database/usuarios.txt", "r", encoding="utf-8") as arquivo:
                 
                 while True:
                     linha_nome = arquivo.readline().strip() 

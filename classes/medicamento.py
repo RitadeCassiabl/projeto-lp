@@ -1,5 +1,15 @@
 class Medicamento:
-    def __init__(self, nome: str, fabricante: str, dosagem: str, preco: float, quantidade: int, tipo: str, prescricao: str, tarjaPreta: str):
+    def __init__(
+        self,
+        nome: str,
+        fabricante: str,
+        dosagem: str,
+        preco: float,
+        quantidade: int,
+        tipo: str,
+        prescricao: str,
+        tarjaPreta: str,
+    ):
         self.__nome = nome
         self.__fabricante = fabricante
         self.__dosagem = dosagem
@@ -8,7 +18,7 @@ class Medicamento:
         self.__tipo = tipo
         self.__prescricao = prescricao
         self.__tarjaPreta = tarjaPreta
-        
+
     def atualizar_estoque(self, quantidade, preco):
         self.__nome = self.__nome
         self.__fabricante = self.__fabricante
@@ -18,7 +28,7 @@ class Medicamento:
         self.__tipo = self.__tipo
         self.__prescricao = self.__prescricao
         self.__tarjaPreta = self.__tarjaPreta
-        
+
     def set_nome(self, nome):
         self.__nome = nome
 

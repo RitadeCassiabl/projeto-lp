@@ -1,8 +1,10 @@
 from enum import Enum
 
+
 class Papel(Enum):
     FARMACEUTICO = "farmaceutico"
     CAIXA = "caixa"
+
 
 class Usuario:
     def __init__(self, nome: str, senha: list, papel: Papel):
